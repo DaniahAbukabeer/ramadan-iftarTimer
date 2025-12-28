@@ -26,12 +26,14 @@
       "edgeToEdgeEnabled": true,
       "splash": {
         "image": "./assets/images/splash.png"
-      }
+      },
+      "package": "com.zeatwzatar.ramadaniftarTimer"
     },
     "ios": {
       "splash": {
         "image": "./assets/images/splash.png"
-      }
+      },
+      "bundleIdentifier": "com.zeatwzatar.ramadaniftarTimer"
     },
     "web": {
       "bundler": "metro",

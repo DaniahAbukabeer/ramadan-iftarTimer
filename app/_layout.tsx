@@ -23,6 +23,9 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    ZainRegular: require('../assets/fonts/zain-Regular-mob.ttf'),
+    Archivo: require('../assets/fonts/ArchivoBlack-Regular.ttf'),
+    Bokor: require('../assets/fonts/Bokor-Regular.ttf'),
   });
 
   useEffect(() => {
