@@ -5,6 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { useScale } from '@/hooks/useScale';
+import Timer from '@/components/Timer';
 
 export default function HomeScreen() {
   const styles = useHomeScreenStyles();
@@ -53,8 +54,12 @@ export default function HomeScreen() {
     //     </ThemedText>
     //   </ThemedView>
     // </ParallaxScrollView>
-    <ThemedView style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: '#OFOAOA' }}>
-      <ThemedText style={{fontFamily: 'Bokor', fontSize: 34}}>Ramadan Iftar Timer</ThemedText>
+    <ThemedView style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center', backgroundColor: '#OFOAOA', paddingTop: 30 }}>
+      <>
+      <ThemedText style={{fontFamily: 'Archivo', fontSize: 34, color: '#5a5a5a'}}>Ramadan Iftar Timer</ThemedText>
+      <ThemedText style={{fontSize: 18 ,color: '#3f3f3f'}}>Stay updated with accurate Iftar timings during Ramadan.</ThemedText>
+      <Timer />
+      </>
     </ThemedView>
   );
 }
