@@ -46,7 +46,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Iftar Timer',
           tabBarButton,
           tabBarLabelStyle: textStyles.default,
           tabBarIcon: () => null,

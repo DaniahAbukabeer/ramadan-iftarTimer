@@ -10,7 +10,7 @@ export default function TabLayout() {
   return (
     <NativeTabs>
       <NativeTabs.Trigger name="index">
-        <Label>Home</Label>
+        <Label>Iftar Timer</Label>
         <Icon sf="house" />
       </NativeTabs.Trigger>
       <NativeTabs.Trigger name="explore">
